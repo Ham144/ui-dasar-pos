@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "icon": "./src/assets/icon.png",
+    "scheme": "ham",
+    "android":{
+      "adaptiveIcon":{
+        "foregroundImage": "./src/assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./src/assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "enableFullscreenImage_legacy": true
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./src/assets/fonts/Rubik-Bold.ttf",
+            "./src/assets/fonts/Rubik-Regular.ttf",
+            "./src/assets/fonts/Inter-Bold.ttf",
+            "./src/assets/fonts/Inter-SemiBold.ttf",
+            "./src/assets/fonts/Inter-Medium.ttf",
+            "./src/assets/fonts/Inter-Light.ttf"
+          ]
+        }
+      ]
+    ],
+    "name": "mobile",
+    "slug": "mobile",
+    "newArchEnabled": true
+  }
+}
